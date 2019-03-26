@@ -1,0 +1,15 @@
+2019-03-26_16:59:51.38851 level=info ts=2019-03-26T16:59:51.386620693Z caller=main.go:174 msg="Starting Alertmanager" version="(version=0.15.1, branch=master, revision=)"
+2019-03-26_16:59:51.38919 level=info ts=2019-03-26T16:59:51.388467455Z caller=main.go:175 build_context="(go=go1.10.3, user=GitLab-Omnibus, date=)"
+2019-03-26_16:59:51.40106 level=info ts=2019-03-26T16:59:51.400915197Z caller=cluster.go:155 component=cluster msg="setting advertise address explicitly" addr=172.18.0.2 port=9094
+2019-03-26_16:59:51.40670 level=info ts=2019-03-26T16:59:51.406527547Z caller=cluster.go:570 component=cluster msg="Waiting for gossip to settle..." interval=10m0s
+2019-03-26_16:59:51.40709 level=info ts=2019-03-26T16:59:51.406617609Z caller=main.go:320 msg="Loading configuration file" file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2019-03-26_16:59:51.41385 level=info ts=2019-03-26T16:59:51.413758754Z caller=main.go:396 msg=Listening address=localhost:9093
+2019-03-26_17:00:28.44438 level=info ts=2019-03-26T17:00:28.423195727Z caller=main.go:424 msg="Received SIGTERM, exiting gracefully..."
+2019-03-26_17:00:28.45024 level=info ts=2019-03-26T17:00:28.44994342Z caller=cluster.go:579 component=cluster msg="gossip not settled but continuing anyway" polls=0 elapsed=37.064615777s
+2019-03-26_17:00:28.54361 level=info ts=2019-03-26T17:00:28.543483946Z caller=main.go:174 msg="Starting Alertmanager" version="(version=0.15.1, branch=master, revision=)"
+2019-03-26_17:00:28.54432 level=info ts=2019-03-26T17:00:28.543566771Z caller=main.go:175 build_context="(go=go1.10.3, user=GitLab-Omnibus, date=)"
+2019-03-26_17:00:28.55027 level=info ts=2019-03-26T17:00:28.550199709Z caller=cluster.go:155 component=cluster msg="setting advertise address explicitly" addr=172.18.0.2 port=9094
+2019-03-26_17:00:28.55976 level=info ts=2019-03-26T17:00:28.559716799Z caller=main.go:320 msg="Loading configuration file" file=/var/opt/gitlab/alertmanager/alertmanager.yml
+2019-03-26_17:00:28.57399 level=info ts=2019-03-26T17:00:28.573911889Z caller=main.go:396 msg=Listening address=localhost:9093
+2019-03-26_17:00:28.57679 level=info ts=2019-03-26T17:00:28.57435526Z caller=cluster.go:570 component=cluster msg="Waiting for gossip to settle..." interval=10m0s
+2019-03-26_17:01:28.51921 level=info ts=2019-03-26T17:01:28.518478664Z caller=cluster.go:579 component=cluster msg="gossip not settled but continuing anyway" polls=0 elapsed=59.984406188s

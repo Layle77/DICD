@@ -1,0 +1,19 @@
+version: '3'
+services:
+  ide:
+    build: ./IDE
+    ports:
+      - "8443:8443"
+    volumes:
+      - "./stockage/code:/root/project"
+  gitlab:
+    image: 'gitlab/gitlab-ce:latest'
+    restart: always
+    ports:
+      - '80:80'
+      # - '443:443'
+      #- '22:22'
+    volumes:
+      - './stockage/gitlab/config:/etc/gitlab'
+      - './stockage/gitlab/logs:/var/log/gitlab'
+      - './stockage/gitlab/data:/var/opt/gitlab'

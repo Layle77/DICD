@@ -1,0 +1,13 @@
+2019-03-26_16:59:15.16440 time="2019-03-26T16:59:15Z" level=info msg=Starting version="gitlab-workhorse v8.3.1-20190312.203013"
+2019-03-26_16:59:15.16734 time="2019-03-26T16:59:15Z" level=fatal msg="Can not load config file" configFile=config.toml error="open config.toml: no such file or directory"
+2019-03-26_16:59:16.29062 time="2019-03-26T16:59:16Z" level=info msg=Starting version="gitlab-workhorse v8.3.1-20190312.203013"
+2019-03-26_16:59:16.30241 time="2019-03-26T16:59:16Z" level=info msg="keywatcher: starting process loop"
+2019-03-26_16:59:16.30327 time="2019-03-26T16:59:16Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2019-03-26_17:00:11.90888 localhost 127.0.0.1:0 - - [2019/03/26:17:00:11 +0000] "GET /help HTTP/1.1" 200 79349 "" "curl/7.59.0-DEV" 2.186
+2019-03-26_17:00:25.24880 time="2019-03-26T17:00:25Z" level=info msg=Starting version="gitlab-workhorse v8.3.1-20190312.203013"
+2019-03-26_17:00:25.25860 time="2019-03-26T17:00:25Z" level=info msg="keywatcher: starting process loop"
+2019-03-26_17:00:25.25908 time="2019-03-26T17:00:25Z" level=info msg="redis: dialing" address=/var/opt/gitlab/redis/redis.socket network=unix
+2019-03-26_17:01:14.87661 localhost 127.0.0.1:0 - - [2019/03/26:17:01:14 +0000] "GET /help HTTP/1.1" 200 79349 "" "curl/7.59.0-DEV" 2.302
+2019-03-26_17:02:15.59471 localhost 127.0.0.1:0 - - [2019/03/26:17:02:15 +0000] "GET /help HTTP/1.1" 200 79349 "" "curl/7.59.0-DEV" 0.406
+2019-03-26_17:03:16.37404 localhost 127.0.0.1:0 - - [2019/03/26:17:03:16 +0000] "GET /help HTTP/1.1" 200 79349 "" "curl/7.59.0-DEV" 0.597
+2019-03-26_17:04:17.52674 localhost 127.0.0.1:0 - - [2019/03/26:17:04:17 +0000] "GET /help HTTP/1.1" 200 79349 "" "curl/7.59.0-DEV" 1.046
